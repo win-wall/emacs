@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/" . "tuong/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/tuong/.emacs.d/"
+ "/home/tuong/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init.el"
+ "custom.el"
+ "foo.el"
+ "foo"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/tuong/.emacs.d/" (25322 27583 846579 644000) "init.el" "custom.el" "auto-save-list/" "./" "elpa/" "../" "tutorial/" "projectile-bookmarks.eld" "ido.last")
+
+ ("/usr/" (25313 27002 102342 158000) "local/" "lib/" "lib32/" "bin/" "./" "src/" "share/" "sbin/" "../" "lib64/" "include/")
+
+ ("/usr/share/" (25313 27001 565672 322000) "pavucontrol/" "flameshot/" "spa-0.2/" "org.gnome.SoundRecorder/" "libreoffice/" "m17n/" "qt6/" "graphviz/" "kvantummanager/" "mdadm/" "plank/" "mate-background-properties/" "glade/" "lua/" "netpbm/" "file/" "zoneinfo-leaps/" "highlight/" "volumeicon/" "apparmor/" "ufw/" "libinput/" "pixmaps/" "hplip/" "config.kcfg/" "bash-completion/" "idl/" "mpv/" "icons/" "PySide6/" "aclocal-1.16/" "zoneinfo/" "ImageMagick-7/" "GConf/" "zenity/" "audit/" "tracker3/" "accountsservice/" "emacs/" "xfce4/" "upnp/" "xdg-desktop-portal/" "slsh/" "gettext-0.21/" "zoneinfo-posix/" "kf5/" "cmake/" "locale/" "hwinfo/" "Thunar/" "gst-plugins-base/" "gufw/" "xfsprogs/" "awk/" "gtksourceview-4/" "luajit-2.1.0-beta3/" "texinfo/" "readline/" "kdevfiletemplates/" "openal/" "conky/" "apr-1/" "libalpm/" "iso-codes/" "viewnior/" "fonts/" "git-gui/" "gtk-3.0/" "gnome-background-properties/" "lensfun/" "zsh/" "aclocal/" "dbus-1/" "pmix/" "mypaint-data/" "pkgconfig/" "guile/" "pacman/" "keyutils/" "glib-2.0/" "factory/" "kbd/" "fontconfig/" "icu/" "foomatic/" "desktop-directories/" "manjaro-hello/" "makepkg-template/" "libgpg-error/" "grub/" "drirc.d/" "appdata/" "xcb/" "slick-greeter/" "git/" "alsa/" "libwacom/" "obs/" "themes/" "openvpn/" "blueman/" "avahi/" "nvidia/" "qlogging-categories5/" "tc/" "ladspa/" "automake-1.16/" "vlc/" "defaults/" "webapps/" "wayland-protocols/" "ntp/" "gtk-2.0/" "ibus/" "cmus/" "gdb/" "pipewire/" "misc/" "perl-image-exiftool/" "alsa-card-profile/" "fzf/" "zsh-theme-powerlevel10k/" "kconf_update/" "terminfo/" "gimp/" "git-core/" "gstreamer-1.0/" "phonon4qt5/" "kxmlgui5/" "libcaca/" "djvu/" "gir-1.0/" "lxappearance/" "info/" "dhclient/" "groff/" "applications/" "fish/" "perl5/" "ffmpeg/" "mkinitcpio/" "model/" "subversion/" "GeoIP/" "mobile-broadband-provider-info/" "libnumbertext/" "X11/" "gitk/" "libthai/" "color-schemes/" "xgreeters/" "okular/" "dmenu/" "daxctl/" "liblouis/" "autoconf/" "enchant/" "makepkg/" "libexttextcat/" "Kvantum/" "man/" "xml/" "systemsettings/" "gtksourceview-3.0/" "gettext/" "lxinput/" "vulkan/" "ppd/" "sounds/" "licenses/" "egl/" "gutenprint/" "nano-syntax-highlighting/" "kdevappwizard/" "libgphoto2_port/" "imlib2/" "gvfs/" "gegl-0.4/" "lshw/" "tabset/" "gtksourceview-5/" "dnsmasq/" "opt-viewer/" "gtk-doc/" "polkit-1/" "glvnd/" "media-player-info/" "solid/" "openmpi/" "wayland-eglstream/" "ca-certificates/" "os-prober/" "poppler/" "libwmf/" "gitweb/" "mesa-demos/" "vala/" "xtables/" "hwloc/" "libtool/" "hwdata/" "cups/" "app-info/" "knotifications5/" "syslog-ng/" "pcmanfm/" "gtk-4.0/" "accounts/" "qt/" "gcc-12.1.0/" "graphite2/" "ghostscript/" "moc/" "vim/" "installed-tests/" "ibus-bamboo/" "bison/" "sbxkb/" "purpose/" "morc_menu/" "application-utility/" "backgrounds/" "lv2specgen/" "systemd/" "gjs-1.0/" "scan-build/" "mime/" "xsessions/" "stoken/" "pacman-mirrors/" "thumbnailers/" "templates/" "iptables/" "gnupg/" "nano/" "redland/" "libfm/" "kservices5/" "kservicetypes5/" "help/" "FLAC/" "gnome/" "metainfo/" "ss/" "common-lisp/" "dotnet/" "liblangtag/" "et/" "i18n/" "kpackage/" "snmp/" "kvantumpreview/" "p11-kit/" "libdrm/" "iana-etc/" "w3m/" "xfburn/" "clang/" "libgphoto2/" "epdfview/" "ecryptfs-utils/" "ModemManager/" "qt5ct/" "wayland/" "doc/" "scan-view/" "gnome-shell/" "java/" "dhcpcd/" "../" "./")
+
+ ("/usr/share/emacs/" (25307 9522 598596 214000) "site-lisp/" "./" "28.1/" "../")
+
+ ("/usr/share/emacs/28.1/" (25307 9522 865262 874000) "site-lisp/" "etc/" "./" "../" "lisp/")
+
+ ("/usr/share/emacs/28.1/etc/" (25307 9522 655262 879000) "ERC-NEWS" "srecode/" "edt-user.el" "gnus/" "TERMS" "ps-prin1.ps" "schema/" "charsets/" "NEWS.23" "NEWS.26" "grep.txt" "JOKES" "AUTHORS" "MH-E-NEWS" "DOC" "NEWS.27" "DISTRIB" "emacs.desktop" "emacs.metainfo.xml" "tutorials/" "forms/" "ETAGS.EBNF" "emacs.icon" "themes/" "DEVEL.HUMOR" "HELLO" "emacs-buffer.gdb" "future-bug" "HISTORY" "emacs-mail.desktop" "NXML-NEWS" "CALC-NEWS" "./" "NEWS.1-17" "ORG-NEWS" "spook.lines" "compilation.txt" "gnus-tut.txt" "DEBUG" "NEWS.22" "NEWS.18" "README" "rgb.txt" "MACHINES" "NEWS.19" "ETAGS.README" "refcards/" "org/" "emacsclient.desktop" "w32-feature.el" "enriched.txt" "NEXTSTEP" "emacsclient-mail.desktop" "NEWS" "../" "package-keyring.gpg" "nxml/" "NEWS.24" "TODO" "ses-example.ses" "e/" "images/" "PROBLEMS" "emacs.service" "NEWS.20" "COPYING" "NEWS.21" "yow.lines" "NEWS.25" "publicsuffix.txt.gz" "ps-prin0.ps")
+
+ ("/home/tuong/" (25321 52948 911954 263000) ".profile.bak" ".makepkg.conf" ".pki/" ".urxvt/" ".oh-my-zsh/" ".wget-hsts" "Videos/" ".Xclients" "Documents/" ".zshrc.pre-oh-my-zsh" ".moc/" "Public/" ".nv/" ".mozilla/" ".moonchild productions/" "dotnet-install.sh.1" "fusee-interfacee-tk/" "dotnet-install.sh" ".emulator_console_auth_token" "Pictures/" ".shell.pre-oh-my-zsh" ".nanorc" "Templates/" ".nvidia-settings-rc" ".cache/" ".bashrc" "snap/" ".dmenurc" ".dotnet/" "Music/" "Desktop/" ".gtkrc-2.0" "rcmGUI-linux/" ".icons/" ".config/" ".xsession-errors.old" ".dir_colors" ".android/" ".zshrc" ".xinitrc" "./" ".bash_history" ".Xauthority" "Android/" ".profile" "hello.txt" ".zcompdump-tuong-ms7b89-5.9" ".emacs.d/" ".java/" ".openjfx/" ".python_history" ".i3/" ".Xresources" ".local/" ".tmp/" ".bash_profile" ".zsh_history" "../" ".bash_logout" "2022-07-25 21-07-04.mkv" "dotnet-install.sh.2" "Downloads/" ".emacs" ".xsession-errors" "android-studio/" ".gimp-2.8/")
+
+ ("/home/" (25307 3188 215653 292000) "tuong/" "./" "../")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

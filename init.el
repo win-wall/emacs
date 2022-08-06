@@ -19,10 +19,14 @@
 (set-face-foreground 'font-lock-comment-face "#fc0")
 
 ;; Interactively do things.
+<<<<<<< HEAD
 (ido-mode 1)
 (ido-everywhere)
 (setq ido-enable-flex-matching t)
 (fido-mode)
+=======
+
+>>>>>>> master
 
 ;; Show stray whitespace.
 (setq-default show-trailing-whitespace t)
@@ -70,12 +74,81 @@
 (load custom-file t)
 
 ;; Enable installation of packages from MELPA.
+<<<<<<< HEAD
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 (unless package-archive-contents
   (package-refresh-contents))
 
+=======
+
+;; (require 'package)
+;; (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; (package-initialize)
+;; (unless package-archive-contents
+;;   (package-refresh-contents))
+
+(condition-case nil
+    (require 'use-package)
+  (file-error
+   (require 'package)
+   (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/"))
+   (package-initialize)
+   (package-refresh-contents)
+   (package-install 'use-package)
+   (setq use-package-always-ensure t)
+   (require 'use-package)))
+;; all package that was installed will go here
+
+(use-package projectile
+             :ensure t
+             :config
+             (define-key projectile-mode-map (kbd "C-x p") 'projectile-command-map)
+             (projectile-mode +1))
+(use-package helm
+             :ensure t
+             :config (helm-mode 1))
+;; extra config for helm always display on bottom
+(add-to-list 'display-buffer-alist
+                    `(,(rx bos "*helm" (* not-newline) "*" eos)
+                      (display-buffer-in-sid
+                       e-window)
+                         (inhibit-same-window . t)
+                         (window-height . 0.3)))
+(use-package dashboard
+  :ensure t
+  :init
+  (progn
+    (setq dashboard-items '((recents . 3)
+                            (projects . 3)))
+    (setq dashboard-show-shortcuts nil)
+    (setq dashboard-center-content nil)
+    (setq dashboard-set-file-icons t)
+    (setq dashboard-set-heading-icons t)
+    (setq dashboard-set-navigator t))
+  :config
+  (dashboard-setup-startup-hook))
+(use-package all-the-icons
+  :if (display-graphic-p))
+
+;;use f8 key map for toggle treemacs
+(use-package treemacs
+  :bind
+  (:map global-map
+        ([f8] . treemacs))
+  :ensure t)
+(use-package treemacs-projectile
+  :after treemacs projectile
+  :ensure t)
+;; Helm mode is full screen size first buffer so you need to install
+;; popwin
+(use-package popwin)
+(popwin-mode 1)
+;; package which-key help us to show which key avaible for us to use
+(use-package which-key)
+(which-key-mode)
+>>>>>>> master
 ;; Install packages.
 (dolist (package '(markdown-mode paredit rainbow-delimiters))
   (unless (package-installed-p package)
