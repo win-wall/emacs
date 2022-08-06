@@ -1,0 +1,5 @@
+* Default
+** .emacs.d
+ - path :: ~/.emacs.d
+** elite_mall
+ - path :: ~/elite_mall
